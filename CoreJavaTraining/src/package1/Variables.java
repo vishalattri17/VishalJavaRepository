@@ -3,9 +3,13 @@ package package1;
 public class Variables {
 	
 	int i ; // global variable
+	String str ;
 	
-	public void method1(int i) {  //local variable
+	public void method1(int i, String str) {  //local variable
 		this.i = i; // here if global and local variables are same , then use "this" keyowrd
+		this.str = str;
+		char a = 'Y';
+		
 		
 	}
 	
@@ -14,6 +18,11 @@ public class Variables {
 		Variables var = new Variables();
 		var.method1(123);
 		System.out.println(var.i);
+		var.str = "Jumbo class";
+		System.out.println(var.str);
 	}
+	
+	
+	
 
 }

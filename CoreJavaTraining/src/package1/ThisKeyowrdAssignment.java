@@ -1,5 +1,7 @@
 package package1;
 
+import java.util.Scanner;
+
 public class ThisKeyowrdAssignment {
 
 	public void method() {
@@ -26,6 +28,8 @@ public class ThisKeyowrdAssignment {
 	public static void main(String[] args) {
 		ThisKeyowrdAssignment test = new ThisKeyowrdAssignment();
 		test.method1(1);
+		
+		
 
 	}
 }
