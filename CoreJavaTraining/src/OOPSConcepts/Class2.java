@@ -1,7 +1,7 @@
 package OOPSConcepts;
 public class Class2 extends Class1{	
 	public Class2() {
-		super(21);
+		super(21); // calling the parent parametrized constructor
 		System.out.println("Child Class default constructor");
 	}
 	public Class2(int x) {
